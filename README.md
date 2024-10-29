@@ -69,5 +69,15 @@ Trên web [Guru99Bank](http://www.demo.guru99.com/V4/)
 4. **Chạy kiểm thử tự động cho chức năng Deposit**
 
 ```bash
-    pytest tests/test_deposit.py
+    pytest tests/test_deposit.py -v
+```
+
+5. **Chạy kiểm thử tự động cho chức năng X**
+6. **Chạy kiểm thử tự động cho chức năng X**
+7. **Chạy kiểm thử tự động cho chức năng X**
+
+8. **Chạy kiểm thử tự động cho chức năng Logout**
+
+```bash
+    pytest tests/test_logout.py -v
 ```
