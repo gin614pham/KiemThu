@@ -59,3 +59,15 @@ Trên web [Guru99Bank](http://www.demo.guru99.com/V4/)
 ```
 
 > ❗ **Lưu ý:** Thay đổi Email cho dữ liệu test của 2 hàm`test_create_new_customer` và`test_create_new_customer_with_existing_email`trong`/tests/test_new_customer.py`
+
+3. **Chạy kiểm thử tự động cho chức năng New Account**
+
+```bash
+    pytest tests/test_new_customer.py -v
+```
+
+4. **Chạy kiểm thử tự động cho chức năng Deposit**
+
+```bash
+    pytest tests/test_deposit.py
+```
