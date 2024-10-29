@@ -2,23 +2,16 @@
 
 Kiểm thử các chức năng sau:
 
-Login
+- Login
+- New Customer
+- New Account
+- Deposit
+- Widthdraw
+- Fund Transfer
+- Customized Statement Form
+- Log out
 
-Logout
-
-Register a Patient
-
-Find Patient Record
-
-View the Patient
-
-Search a Patient
-
-Book an Appointment
-
-Capture Vitals
-
-Cho web https://demo.openmrs.org/openmrs/login.htm
+Cho web [Guru99Bank](http://www.demo.guru99.com/V4/)
 
 ## Thành viên nhóm
 
@@ -49,16 +42,10 @@ Cho web https://demo.openmrs.org/openmrs/login.htm
     pip install selenium pytest
 ```
 
-3. **Cài Đặt WebDriver**
-   Để chạy bài kiểm tra tự động, cần cài đặt WebDriver cho trình duyệt muốn kiểm tra.
-
-   Tải file WebDriver cần thiết và thay đường dẫn file vào `service = Service(r"D:\Code\chromedriver-win64\chromedriver.exe")`
-   trong file `test_login.py`
-
 ## Chạy Bài Kiểm Tra Tự Động
 
 1. **Chạy kiểm thử tự động cho chức năng Login**
 
 ```bash
-    pytest test_login.py -v
+    pytest tests/test_login.py -v
 ```
