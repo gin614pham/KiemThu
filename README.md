@@ -1,5 +1,7 @@
 # Bài tập nhóm môn Đảm bảo chất lượng và kiểm thử phần mềm
 
+Nhóm chúng tôi sử dụng pytest và mô hình POM để tạo Test Automation
+
 Kiểm thử các chức năng sau:
 
 - Login
@@ -11,7 +13,7 @@ Kiểm thử các chức năng sau:
 - Customized Statement Form
 - Log out
 
-Cho web [Guru99Bank](http://www.demo.guru99.com/V4/)
+Trên web [Guru99Bank](http://www.demo.guru99.com/V4/)
 
 ## Thành viên nhóm
 
