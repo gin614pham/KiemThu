@@ -46,6 +46,26 @@ Trên web [Guru99Bank](http://www.demo.guru99.com/V4/)
 
 ## Chạy Bài Kiểm Tra Tự Động
 
+### Chạy toàn bộ bài kiểm tra tự động
+
+```bash
+    pytest tests/ -v
+```
+
+> **Trong trường hợp muốn xuất báo cáo ra file HTML**
+
+```bash
+    pytest -v --html=report.html tests/
+```
+
+Đảm bảo đã cài đặt `pytest-html` trước khi chạy lệnh xuất báo cáo
+
+```bash
+    pip install pytest-html
+```
+
+### Chạy riêng lẻ cho từng chức năng
+
 1. **Chạy kiểm thử tự động cho chức năng Login**
 
 ```bash
