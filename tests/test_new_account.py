@@ -1,4 +1,4 @@
-import pytest
+import pytest 
 from pages.login_page import LoginPage
 from pages.new_account_page import NewAccountPage
 
