@@ -6,7 +6,7 @@ from selenium import webdriver
 def driver():
     # Khởi tạo trình duyệt (ở đây dùng Chrome)
     driver = webdriver.Chrome()
-    driver.implicitly_wait(10)
+    driver.implicitly_wait(20)
     driver.get("http://www.demo.guru99.com/V4/")
     yield driver
     driver.quit()

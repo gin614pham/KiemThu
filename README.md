@@ -49,3 +49,11 @@ Cho web [Guru99Bank](http://www.demo.guru99.com/V4/)
 ```bash
     pytest tests/test_login.py -v
 ```
+
+2. **Chạy kiểm thử tự động cho chức năng New Customer**
+
+```bash
+    pytest tests/test_new_customer.py -v
+```
+
+> ❗ **Lưu ý:** Thay đổi Email cho dữ liệu test của 2 hàm`test_create_new_customer` và`test_create_new_customer_with_existing_email`trong`/tests/test_new_customer.py`

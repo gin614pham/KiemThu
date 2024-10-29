@@ -8,12 +8,15 @@ from selenium.webdriver.common.keys import Keys
 class LoginPage:
     def __init__(self, driver: WebDriver):
         self.driver = driver
+        self.url = "http://www.demo.guru99.com/V4/"
+
+    def open(self):
+        self.driver.get(self.url)
 
     # Các locator cho các phần tử
     USERNAME_INPUT = (By.NAME, "uid")
     PASSWORD_INPUT = (By.NAME, "password")
     LOGIN_BUTTON = (By.NAME, "btnLogin")
-    ERROR_MESSAGE = (By.CLASS_NAME, "heading3")
     ERROR_MESSAGE_USERNAME = (By.ID, "message23")
     ERROR_MESSAGE_PASSWORD = (By.ID, "message18")
 
