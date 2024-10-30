@@ -20,9 +20,9 @@ Test Scenario và Test Case được tạo trong file `Test Scenario and Test Ca
 ## Thành viên nhóm
 
 - Phạm Hoàng Phúc - 21IT640
-- Phạm Quốc Phú -
-- Lê Nhật Linh -
-- Trình Đàm Huy -
+- Phạm Quốc Phú - 21IT099
+- Lê Nhật Linh - 21IT085
+- Trình Đàm Huy - 21IT081
 
 ## Công Nghệ Đã Sử Dụng
 
