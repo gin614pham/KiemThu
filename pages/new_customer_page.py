@@ -54,7 +54,7 @@ class NewCustomerPage:
         self.driver.find_element(*self.EMAIL).send_keys(email)
         self.driver.find_element(*self.PASSWORD).send_keys(password)
         self.driver.find_element(*self.SUBMIT_BUTTON).click()
-
+     
     def get_error_message(self) -> str:
         name_error = self.driver.find_element(*self.MESSAGE_NAME).text
         dob_error = self.driver.find_element(*self.MESSAGE_DOB).text
