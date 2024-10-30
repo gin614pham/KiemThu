@@ -109,13 +109,13 @@ Test Scenario và Test Case được tạo trong file `Test Scenario and Test Ca
 6. **Chạy kiểm thử tự động cho chức năng Fund Transfer**
 
 ```bash
-    pytest tests/test_???..py -v
+    pytest tests/test_fund_transfer.py -v
 ```
 
 7. **Chạy kiểm thử tự động cho chức năng Customized Statement Form**
 
 ```bash
-    pytest tests/test_???.py -v
+    pytest tests/test_customzied_statement_form.py -v
 ```
 
 8. **Chạy kiểm thử tự động cho chức năng Logout**
