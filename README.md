@@ -38,6 +38,10 @@ Test Scenario và Test Case được tạo trong file `Test Scenario and Test Ca
     git clone https://github.com/gin614pham/KiemThu.git
 ```
 
+```bash
+    cd KiemThu
+```
+
 2. **Cài Đặt Các Gói Cần Thiết**
 
 - Cài đặt Selenium và pytest
