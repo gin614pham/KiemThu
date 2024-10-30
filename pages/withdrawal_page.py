@@ -3,11 +3,11 @@ from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.common.keys import Keys
 
 
-class DepositPage:
+class WithdrawalPage:
 
     def __init__(self, driver: WebDriver):
         self.driver = driver
-        self.url = "https://www.demo.guru99.com/V4/manager/DepositInput.php"
+        self.url = "https://www.demo.guru99.com/V4/manager/WithdrawalInput.php"
 
     def open(self):
         self.driver.get(self.url)
@@ -20,7 +20,7 @@ class DepositPage:
     MESSAGE_AMOUNT = (By.ID, "message1")
     MESSAGE_DESC = (By.ID, "message17")
 
-    def make_deposit(self, account_no, deposit_amount, description):
+    def make_withdrawal(self, account_no, deposit_amount, description):
         self.driver.find_element(*self.ACCOUNT_NO).send_keys(account_no)
         self.driver.find_element(
             *self.DEPOSIT_AMOUNT).send_keys(deposit_amount)
@@ -40,7 +40,3 @@ class DepositPage:
             "description_error": description_error
         }
 
-    def make_deposit_with_no_data(self):
-        self.driver.find_element(*self.ACCOUNT_NO).send_keys(Keys.TAB)
-        self.driver.find_element(*self.DEPOSIT_AMOUNT).send_keys(Keys.TAB)
-        self.driver.find_element(*self.DESCRIPTION).send_keys(Keys.TAB)
