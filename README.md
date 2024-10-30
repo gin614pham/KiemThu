@@ -8,12 +8,14 @@ Kiểm thử các chức năng sau:
 - New Customer
 - New Account
 - Deposit
-- Widthdraw
+- Withdrawal
 - Fund Transfer
 - Customized Statement Form
 - Log out
 
 Trên web [Guru99Bank](http://www.demo.guru99.com/V4/)
+
+Test Scenario và Test Case được tạo trong file `Test Scenario and Test Case.xlsx`
 
 ## Thành viên nhóm
 
@@ -92,9 +94,23 @@ Trên web [Guru99Bank](http://www.demo.guru99.com/V4/)
     pytest tests/test_deposit.py -v
 ```
 
-5. **Chạy kiểm thử tự động cho chức năng X**
-6. **Chạy kiểm thử tự động cho chức năng X**
-7. **Chạy kiểm thử tự động cho chức năng X**
+5. **Chạy kiểm thử tự động cho chức năng Withdrawal**
+
+```bash
+    pytest tests/test_withdrawal.py -v
+```
+
+6. **Chạy kiểm thử tự động cho chức năng Fund Transfer**
+
+```bash
+    pytest tests/test_???..py -v
+```
+
+7. **Chạy kiểm thử tự động cho chức năng Customized Statement Form**
+
+```bash
+    pytest tests/test_???.py -v
+```
 
 8. **Chạy kiểm thử tự động cho chức năng Logout**
 
