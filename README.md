@@ -60,7 +60,9 @@ Test Scenario và Test Case được tạo trong file `Test Scenario and Test Ca
     pytest -v --html=report.html tests/
 ```
 
-Đảm bảo đã cài đặt `pytest-html` trước khi chạy lệnh xuất báo cáo
+> Sau khi chạy lệnh trên kết quả test sẽ được xuất ra trong file `report.html`
+>
+> Đảm bảo đã cài đặt `pytest-html` trước khi chạy lệnh xuất báo cáo
 
 ```bash
     pip install pytest-html
